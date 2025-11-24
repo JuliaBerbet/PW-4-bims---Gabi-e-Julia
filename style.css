@@ -19,10 +19,11 @@ body, html {
 
 .header {
     grid-column: 1 / 3; /* O cabeçalho ocupa as duas colunas */
-    background-color: #4CAF50;
+    background-color: #20414bff;
     color: white;
     text-align: center;
     padding: 20px;
+
 }
 
 .navbar {
