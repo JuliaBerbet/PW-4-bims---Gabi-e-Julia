@@ -9,8 +9,8 @@ body, html {
 
 .grid-container {
     display: grid;
-    /* Define a estrutura das colunas: 20% para a barra lateral e 80% para o conteúdo principal */
-    grid-template-columns: 20% 80%;
+ 
+    
     /* Define a estrutura das linhas: 20% para o cabeçalho, 60% para o conteúdo e 20% para o rodapé */
     grid-template-rows: 20% 70% 10%;
     height: 100vh; 
@@ -18,7 +18,7 @@ body, html {
 
 
 .header {
-    grid-column: 1 / 3; /* O cabeçalho ocupa as duas colunas */
+   
     background-color: #20414bff;
     color: white;
     text-align: center;
@@ -26,15 +26,10 @@ body, html {
 
 }
 
-.navbar {
-    grid-column: 1 / 2; /* A barra de navegação ocupa a primeira coluna */
-    grid-row: 2 / 3;    /* A barra de navegação ocupa a segunda linha */
-    background-color: #f1f1f1;
-    padding: 10px;
-}
+
 
 .main-content {
-    grid-column: 2 / 3; /* O conteúdo principal ocupa a segunda coluna */
+
     grid-row: 2 / 3;    /* O conteúdo principal ocupa a segunda linha */
     padding: 10px;
     background-color: #ffffff;
@@ -42,11 +37,11 @@ body, html {
 
 .article {
     height: 100%;
-    overflow: auto; /* Adiciona barra de rolagem se o conteúdo do iframe for maior */
+
 }
 
 .footer {
-    grid-column: 1 / 3; /* O rodapé ocupa as duas colunas */
+
     grid-row: 3 / 4;    /* O rodapé ocupa a terceira linha */
     background-color: #333;
     color: white;
