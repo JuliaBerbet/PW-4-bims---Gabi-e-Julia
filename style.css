@@ -11,18 +11,19 @@ body, html {
     display: grid;
  
     
-    /* Define a estrutura das linhas: 20% para o cabeçalho, 60% para o conteúdo e 20% para o rodapé */
-    grid-template-rows: 20% 70% 10%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15% 78% 7%;
     height: 100vh; 
 }
 
 
 .header {
    
-    background-color: rgb(27, 52, 196);
+    background-color: rgb(218, 245, 69);
     color: white;
     text-align: center;
     padding: 20px;
+    display: flex;
 
 }
 
@@ -56,18 +57,38 @@ iframe {
     border: none; /* Remove a borda padrão do iframe */
 }
 
-/* Estilos para demonstração (você pode remover) */
-.header h1, .navbar h2, .article h2, .footer p {
-    margin: 0;
-}
+
 
 
 
 .botoes{
  display: flex;
  align-items: center;
- justify-content: center;
- gap: 15px; 
+ justify-content: baseline;
+ gap: 5vw; 
+ margin-left: 4vw;
+
+
+
+}
+
+a .botoes{
+    text-decoration: none;
+    color: brown;
+    background-color: tomato;
+    border-radius: 5px;
+    padding: 0.8vw;
+
+}
+
+
+.CasinhaArticle{
+display: flex;
+width: 5vw;
+height: auto;       
+margin-left: 2vw;
+
+
 
 
 
