@@ -1,0 +1,55 @@
+body {
+    background-image: url(imagens/fundo\ dublagem.png);
+    background-size: cover;
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+.principal {
+    background-color: rgba(224, 227, 230, 0.705);
+    border-radius: 5px;
+    font-family: "Indie Flower", cursive;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+    margin-top: 2%;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 1% 4%;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 25px;
+}
+
+td{
+    border: 0.2vh solid #000000;
+    border-radius: 6px;
+}
+
+td, th {
+    padding: 8px 13px;
+}
+
+table{
+    border-spacing: 10px 15px;
+}
+
+.ts1 {
+    background-color: rgba(224, 227, 230, 0.705);
+    border-radius: 5px;
+    font-family: "Indie Flower", cursive;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+    margin-top: 2%;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 1% 4%;
+}
+
