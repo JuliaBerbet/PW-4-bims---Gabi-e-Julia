@@ -60,3 +60,16 @@ iframe {
 .header h1, .navbar h2, .article h2, .footer p {
     margin: 0;
 }
+
+
+
+.botoes{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 15px; 
+
+
+
+
+}
