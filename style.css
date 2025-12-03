@@ -19,11 +19,12 @@ body, html {
 
 .header {
    
-    background-color: rgb(218, 245, 69);
+    background-color: rgb(255, 255, 255);
     color: white;
     text-align: center;
     padding: 20px;
     display: flex;
+    border-bottom: solid 2px black;
 
 }
 
@@ -44,10 +45,11 @@ body, html {
 .footer {
 
     grid-row: 3 / 4;    /* O rodapé ocupa a terceira linha */
-    background-color: #333;
-    color: white;
+    background-color: rgb(255, 245, 102);
+    color: rgb(255, 245, 102);
     text-align: center;
     padding: 10px;
+    border-top: solid 2px black;
 }
 
 /* Estilizando os iframes */
@@ -72,12 +74,17 @@ iframe {
 
 }
 
-a .botoes{
+ .nav{
     text-decoration: none;
     color: brown;
-    background-color: tomato;
+    background-color: rgb(237, 255, 71);
     border-radius: 5px;
     padding: 0.8vw;
+  font-family: "Indie Flower", cursive;
+  border: darkblue, 2px solid;
+  display: block;
+ width: 7vw;
+
 
 }
 
@@ -87,6 +94,8 @@ display: flex;
 width: 5vw;
 height: auto;       
 margin-left: 2vw;
+align-items: center;
+
 
 
 
