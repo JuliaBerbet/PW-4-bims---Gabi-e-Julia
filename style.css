@@ -1,5 +1,5 @@
-
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -9,16 +9,16 @@ body, html {
 
 .grid-container {
     display: grid;
- 
-    
+
+
     grid-template-columns: 1fr;
     grid-template-rows: 15% 78% 7%;
-    height: 100vh; 
+    height: 100vh;
 }
 
 
 .header {
-   
+
     background-color: rgb(255, 255, 255);
     color: white;
     text-align: center;
@@ -26,13 +26,17 @@ body, html {
     display: flex;
     border-bottom: solid 2px black;
 
+    position: relative;
+    overflow: visible;
+
 }
 
 
 
 .main-content {
 
-    grid-row: 2 / 3;    /* O conteúdo principal ocupa a segunda linha */
+    grid-row: 2 / 3;
+    /* O conteúdo principal ocupa a segunda linha */
     padding: 10px;
     background-color: #ffffff;
 }
@@ -44,9 +48,10 @@ body, html {
 
 .footer {
 
-    grid-row: 3 / 4;    /* O rodapé ocupa a terceira linha */
-    background-color: rgb(255, 245, 102);
-    color: rgb(255, 245, 102);
+    grid-row: 3 / 4;
+    /* O rodapé ocupa a terceira linha */
+    background-color: #FFD700;
+
     text-align: center;
     padding: 10px;
     border-top: solid 2px black;
@@ -56,45 +61,46 @@ body, html {
 iframe {
     width: 100%;
     height: 100%;
-    border: none; /* Remove a borda padrão do iframe */
+    border: none;
+    /* Remove a borda padrão do iframe */
 }
 
 
 
 
 
-.botoes{
- display: flex;
- align-items: center;
- justify-content: baseline;
- gap: 5vw; 
- margin-left: 4vw;
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    gap: 5vw;
+    margin-left: 4vw;
 
 
 
 }
 
- .nav{
+.nav {
     text-decoration: none;
-    color: brown;
-    background-color: rgb(237, 255, 71);
+    color: #E51B23;
+    background-color: #FFD700;
     border-radius: 5px;
     padding: 0.8vw;
-  font-family: "Indie Flower", cursive;
-  border: darkblue, 2px solid;
-  display: block;
- width: 7vw;
+    font-family: "Indie Flower", cursive;
+    border: #003A70, 3px solid;
+    display: block;
+    width: 7vw;
 
 
 }
 
 
-.CasinhaArticle{
-display: flex;
-width: 5vw;
-height: auto;       
-margin-left: 2vw;
-align-items: center;
+.logo {
+    display: flex;
+    width: 5vw;
+    height: auto;
+    margin-left: 2vw;
+    align-items: center;
 
 
 
@@ -102,4 +108,15 @@ align-items: center;
 
 
 
+}
+
+
+.mainlogo {
+    position: fixed;
+    width: 300px;
+    transform: rotate(8deg);
+    right: 30px;
+    z-index: 9999;
+    pointer-events: none;
+    align-items: end;
 }
