@@ -86,10 +86,11 @@ iframe {
     background-color: #FFD700;
     border-radius: 5px;
     padding: 0.8vw;
-    font-family: "Indie Flower", cursive;
+    font-family: 'Luckiest Guy', sans-serif;
+    letter-spacing: 1px;
     border: #003A70, 3px solid;
     display: block;
-    width: 7vw;
+    width: 8vw;
 
 
 }

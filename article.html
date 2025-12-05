@@ -10,20 +10,39 @@
     flex-direction: row;
     align-content: center;
     justify-content: center;
+      gap: 45px;
 
 }
 
 .gallery img {
     display: flex;
-  width: 100%;
-  height: auto;
+  width: 90%;
+  align-items: center;
+  
+
 }
 
 img{
     border: solid 5px darkblue;
     display: flex;
-height: 500px;
-width: 400px;    
+height: 400px;
+width: 370px;    
+
+}
+
+
+body{
+     margin: 0;
+    background: url("nuvens1.jpg") repeat-x;
+    background-size: 1500px;
+    animation: moverNuvens 80s linear infinite;
+    overflow-x: hidden;
+}
+
+
+@keyframes moverNuvens {
+    0% { background-position: 0 0; }
+    100% { background-position: -3000px 0; }
 }
 
 
@@ -38,7 +57,7 @@ width: 400px;
 
   <div class="gallery">
     <a target="_blank" href="https://open.spotify.com/album/3hhDpPtCFuQbppwYgsVhMO?si=O1WNECPzQW6r7wIoYUgMBg">
-      <img src="fotos/kisslandcover.jpg" alt="Mountains" width="600" height="400">
+      <img src="Toy_Story1.jpg" alt="Mountains" width="600" height="400">
     </a>
    
 </div>
@@ -48,7 +67,7 @@ width: 400px;
 
   <div class="gallery">
     <a target="_blank" href="https://open.spotify.com/album/0P3oVJBFOv3TDXlYRhGL7s?si=b83LqHZ_QXaRYMz6bL0MWw">
-      <img src="fotos/beautycover.jpg" alt="Mountains" width="600" height="400">
+      <img src="toy_story2.jpeg" alt="Mountains" width="600" height="400">
     </a>
   
 
@@ -65,7 +84,7 @@ width: 400px;
 
   <div class="gallery">
     <a target="_blank" href="https://open.spotify.com/album/2ODvWsOgouMbaA5xf0RkJe?si=Uj5ZN4mlRUuDncsD0TTzkQ">
-      <img src="fotos/starboycover.jpeg" alt="Mountains" width="600" height="400">
+      <img src="Toy_Story3.jpg" alt="Mountains" width="600" height="400">
     </a>
   
  
@@ -81,7 +100,7 @@ width: 400px;
 
   <div class="gallery">
     <a target="_blank" href="https://open.spotify.com/album/4yP0hdKOZPNshxUOjY0cZj?si=VV3cANGySB6Gh8_Az6NbIQ">
-      <img src="fotos/afterhourscover.jpeg" alt="Mountains" width="600" height="400">
+      <img src="toystory4.jpg" alt="Mountains" width="600" height="400">
     </a>
     
 
