@@ -96,6 +96,14 @@ iframe {
 }
 
 
+.botoes .nav:hover{
+    background: #ffe866;
+    transform: translateY(-4px);
+}
+
+
+
+
 .logo {
     display: flex;
     width: 5vw;
