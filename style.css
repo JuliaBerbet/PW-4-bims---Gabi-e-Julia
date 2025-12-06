@@ -32,7 +32,13 @@ html {
 
 
 .main-content {
-
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   /* << ISSO faz o article ocupar a tela inteira */
+    width: 100%;
+    margin: 0;
+    padding: 0;
     grid-row: 2 / 3;
     background-color: #ffffff;
 }
