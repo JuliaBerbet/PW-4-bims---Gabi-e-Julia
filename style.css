@@ -9,8 +9,6 @@ html {
 
 .grid-container {
     display: grid;
-
-
     grid-template-columns: 1fr;
     grid-template-rows: 15% 78% 7%;
     height: 100vh;
@@ -36,8 +34,6 @@ html {
 .main-content {
 
     grid-row: 2 / 3;
-    /* O conteúdo principal ocupa a segunda linha */
-    padding: 10px;
     background-color: #ffffff;
 }
 
@@ -49,7 +45,7 @@ html {
 .footer {
 
     grid-row: 3 / 4;
-    /* O rodapé ocupa a terceira linha */
+  
     background-color: #FFD700;
 
     text-align: center;
