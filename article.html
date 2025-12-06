@@ -1,36 +1,30 @@
 <!DOCTYPE html>
-<html lang="en
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
+  
+
     .row {
-      display: flex;
-      flex-direction: row;
-      align-content: center;
-      justify-content: center;
-      gap: 45px;
+       display: flex;
+    justify-content: center;
+    gap: 30px;  /* espaço entre as capas */
+    margin-top: 20px;
+     justify-content: center;
+
 
     }
 
-    .gallery img {
-      display: flex;
-      width: 100%;
-      align-items: center;
-     max-height:400px;
-     max-width: 370px;
-
-    }
-
-    img {
-      border: solid 5px darkblue;
-      display: flex;
-      height: 400px;
-      width: 370px;
-
-    }
+   .row img {
+    width: 250px;     
+    height: 370px;  
+    object-fit: cover;
+    border-radius: 8px;
+    border: 3px solid #0033cc;
+}
 
 
     body {
@@ -61,17 +55,17 @@
   <div class="row">
 
 
-    <div class="gallery">
+    
       <a target="_blank" href="https://open.spotify.com/album/3hhDpPtCFuQbppwYgsVhMO?si=O1WNECPzQW6r7wIoYUgMBg">
         <img src="Toy_Story1.jpg" alt="Mountains" width="600" height="400">
       </a>
 
-    </div>
+    
 
 
 
 
-    <div class="gallery">
+
       <a target="_blank" href="https://open.spotify.com/album/0P3oVJBFOv3TDXlYRhGL7s?si=b83LqHZ_QXaRYMz6bL0MWw">
         <img src="toy_story2.jpeg" alt="Mountains" width="600" height="400">
       </a>
@@ -79,7 +73,7 @@
 
 
 
-    </div>
+  
 
 
 
@@ -88,13 +82,12 @@
 
 
 
-    <div class="gallery">
+ 
       <a target="_blank" href="https://open.spotify.com/album/2ODvWsOgouMbaA5xf0RkJe?si=Uj5ZN4mlRUuDncsD0TTzkQ">
         <img src="Toy_Story3.jpg" alt="Mountains" width="600" height="400">
       </a>
 
 
-    </div>
 
 
 
@@ -104,13 +97,14 @@
 
 
 
-    <div class="gallery">
+
+   
       <a target="_blank" href="https://open.spotify.com/album/4yP0hdKOZPNshxUOjY0cZj?si=VV3cANGySB6Gh8_Az6NbIQ">
         <img src="toystory4.jpg" alt="Mountains" width="600" height="400">
       </a>
 
 
-    </div>
+   
 
 
   </div>
