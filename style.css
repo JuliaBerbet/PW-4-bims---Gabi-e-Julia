@@ -23,9 +23,13 @@ html {
     padding: 20px;
     display: flex;
     border-bottom: solid 2px black;
-
     position: relative;
     overflow: visible;
+     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;   
 
 }
 
@@ -40,7 +44,7 @@ html {
     margin: 0;
     padding: 0;
     grid-row: 2 / 3;
-    background-color: #ffffff;
+   
 }
 
 .article {
@@ -49,11 +53,13 @@ html {
 }
 
 .footer {
-
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
     grid-row: 3 / 4;
-  
     background-color: #FFD700;
-
     text-align: center;
     padding: 10px;
     border-top: solid 2px black;
