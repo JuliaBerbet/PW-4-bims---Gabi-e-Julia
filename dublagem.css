@@ -38,7 +38,7 @@ table{
     border-spacing: 10px 15px;
 }
 
-.ts1 {
+.ts1, .ts2, .ts3, .ts4, .outros {
     background-color: rgba(224, 227, 230, 0.705);
     border-radius: 5px;
     font-family: "Indie Flower", cursive;
