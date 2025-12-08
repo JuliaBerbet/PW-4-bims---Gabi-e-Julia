@@ -67,8 +67,7 @@ h3{
     font-size: large;
     display: flex;
     padding: 40px 10px;
-    margin-left: 80%;
-    margin-right: 3%;
+    
     border-radius: 20px;
 }
 
@@ -82,5 +81,8 @@ img{
       justify-content: center;
       align-items: center;
       gap: 2vw;
-      height: 70vh;
+         margin-left: 13%;
+    margin-right: 27%;
+    margin-bottom: 10vh;
+      
     }
