@@ -1,44 +1,176 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=-, initial-scale=1.0">
-    <title>Toy Story</title>
-    <style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toy Story (1995) – Wiki</title>
 
-    </style>
+<style>
+/* Fundo estilo céu */
+body {
+    background: linear-gradient(#7ecbff, #cce8ff);
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
 
+/* Títulos */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
 
+h2 {
+    border-left: 8px solid #F8D74A;
+    padding-left: 10px;
+    color: #2c3e50;
+    margin-top: 30px;
+}
+
+/* Caixa geral estilizada */
+.box {
+    background: #ffffffcc;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px #0002;
+    margin-bottom: 20px;
+}
+
+/* Infobox estilo Wiki */
+.infobox {
+    float: right;
+    width: 250px;
+    background: #ffffffcc;
+    padding: 12px;
+    border: 2px solid #F8D74A;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px #0003;
+    margin: 10px;
+}
+
+/* Poster */
+.poster {
+    width: 100%;
+    border-radius: 12px;
+    border: 4px solid #D62828;
+    box-shadow: 0 4px 8px #0003;
+    margin-bottom: 10px;
+}
+
+/* Lista */
+ul {
+    padding-left: 25px;
+}
+
+/* Curiosidades — tabela invisível */
+.curios {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.curios td {
+    padding: 8px 0;
+    border: none;
+    padding-left: 30px;
+    position: relative;
+    transition: 0.2s;
+}
+
+/* Estrelinha do Buzz */
+.curios td::before {
+    content: "⭐";
+    position: absolute;
+    left: 10px;
+    color: #F8D74A;
+    font-size: 18px;
+}
+
+/* Hover divertido */
+.curios td:hover {
+    transform: scale(1.02);
+    background: #ffffff66;
+    border-radius: 8px;
+}
+
+.titulo {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 36px;
+    color: #D62828;
+    text-shadow: 2px 2px #F8D74A;
+    margin-bottom: 10px;
+} 
+</style>
 </head>
-
 <body>
-    <div class="tudo">
-    <div class="foto">
-       <img src="fotos/Toy_Story1.jpg" alt="Toy Story 1">
-    </div>
-<div class="conteudo">
-    <h1>Toy Story (1995)</h1>
-    <h2>Direção: John Lasseter</h2>
-    <h3>Sinopse:</h3>
-    <p>Em um quarto de criança, os brinquedos ganham vida quando não estão sendo observados. Woody, um boneco cowboy, é o líder dos brinquedos e o favorito do garoto Andy. No entanto, a chegada de um novo brinquedo espacial, Buzz Lightyear, ameaça a posição de Woody como o brinquedo preferido. A rivalidade entre Woody e Buzz leva a uma série de aventuras enquanto eles tentam encontrar o caminho de volta para Andy antes que ele se mude para uma nova casa.</p>
-    <h3>Elenco Principal:</h3>
+
+<h1 class="titulo">Toy Story (1995)</h1>
+
+<!-- INFOBOX -->
+<div class="infobox">
+    <img src="fotos/Toy_Story1.jpg" alt="Toy Story Poster" class="poster">
+    <p><strong>Direção:</strong> John Lasseter</p>
+    <p><strong>Lançamento:</strong> 22 de novembro de 1995</p>
+    <p><strong>Duração:</strong> 81 min</p>
+    <p><strong>Gênero:</strong> Animação, Aventura, Comédia</p>
+    <p><strong>Estúdio:</strong> Pixar Animation Studios</p>
+</div>
+
+<!-- SINOPSE -->
+<div class="box">
+    <h2>Sinopse</h2>
+    <p>
+        Woody é o brinquedo favorito de Andy… até que um novo boneco espacial,
+        Buzz Lightyear, chega para disputar sua atenção. Após uma sequência
+        de incidentes, os dois acabam longe de casa e precisam trabalhar juntos
+        para retornar antes da mudança da família.
+    </p>
+</div>
+
+<!-- DIREÇÃO -->
+<div class="box">
+    <h2>Direção</h2>
+    <p>John Lasseter</p>
+</div>
+
+<!-- ELENCO -->
+<div class="box">
+    <h2>Elenco</h2>
     <ul>
-        <li>Woody - Tom Hanks</li>
-        <li>Buzz Lightyear - Tim Allen</li>
-        <li>Sr. Cabeça de Batata - Don Rickles</li>
-        <li>Rex - Wallace Shawn</li>
-        <li>Slinky Dog - Jim Varney</li>
-        <li>Bo Peep - Annie Potts</li>
-    </ul>
-    <h3>Curiosidades:</h3>
-    <ul>
-        <li>Toy Story foi o primeiro longa-metragem totalmente animado por computador.</li>
-        <li>O filme foi um enorme sucesso de bilheteria e crítica, estabelecendo a Pixar como um estúdio líder em animação.</li>
-        <li>O personagem Buzz Lightyear foi inspirado em astronautas reais e na cultura pop dos anos 90.</li>
+        <li>Tom Hanks — Woody</li>
+        <li>Tim Allen — Buzz Lightyear</li>
+        <li>Don Rickles — Sr. Cabeça de Batata</li>
+        <li>Jim Varney — Slinky</li>
+        <li>Wallace Shawn — Rex</li>
     </ul>
 </div>
 
-</body>
+<!-- CURIOSIDADES -->
+<div class="box">
+    <h2>Curiosidades</h2>
 
+    <table class="curios">
+        <tr>
+            <td>Toy Story foi o primeiro longa-metragem totalmente animado em CGI.</td>
+        </tr>
+        <tr>
+            <td>Originalmente, Woody seria um boneco ventríloquo.</td>
+        </tr>
+        <tr>
+            <td>"Ao infinito… e além!" virou um dos bordões mais famosos da cultura pop.</td>
+        </tr>
+        <tr>
+            <td>O filme levou cerca de 4 anos para ser produzido.</td>
+        </tr>
+        <tr>
+            <td>A Pixar reescreveu o roteiro várias vezes até chegar no tom certo.</td>
+        </tr>
+    </table>
+</div>
+
+</body>
 </html>

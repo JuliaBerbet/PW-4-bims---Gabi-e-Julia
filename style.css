@@ -138,3 +138,15 @@ iframe {
     pointer-events: none;
     align-items: end;
 }
+
+.buzz {
+    width: 6vw;
+    height: auto;
+    margin-right: 2vw;
+    align-items: center;
+    animation: balancar 3s infinite alternate;
+}
+
+.buzz:hover {
+    transform: scale(1.1);
+}
