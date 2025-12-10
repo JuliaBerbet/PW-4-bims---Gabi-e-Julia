@@ -12,103 +12,97 @@ body {
     background-attachment: fixed;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    padding: 20px;
-    max-width: 900px;
-    margin: auto;
+    margin: 0;
+    padding: 2vh;
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/* Títulos */
+/* Títulos estilo wiki com faixa amarela */
 h1 {
-    text-align: center;
     color: #2c3e50;
-    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 4vh;
 }
 
 h2 {
-    border-left: 8px solid #F8D74A;
-    padding-left: 10px;
     color: #2c3e50;
-    margin-top: 30px;
+    border-left: 1vw solid #F8D74A;
+    padding-left: 1vw;
+    margin-top: 6vh;
 }
 
-/* Caixa geral estilizada */
-.box {
-    background: #ffffffcc;
-    padding: 15px;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px #0002;
-    margin-bottom: 20px;
-}
-
-/* Infobox estilo Wiki */
+/* =============================
+   INFOBOX AO LADO
+   ============================= */
 .infobox {
     float: right;
-    width: 250px;
+    width: 25vw;               /* antes: 220px */
     background: #ffffffcc;
-    padding: 12px;
-    border: 2px solid #F8D74A;
-    border-radius: 12px;
-    box-shadow: 0 2px 4px #0003;
-    margin: 10px;
+    padding: 1.5vh;
+    border: 0.3vw solid #F8D74A;
+    border-radius: 2vh;
+    box-shadow: 0 0.5vw 1vw #0003;
+    margin: 2vh;
 }
 
-/* Poster */
+/* Poster dentro da infobox */
 .poster {
     width: 100%;
-    border-radius: 12px;
-    border: 4px solid #D62828;
-    box-shadow: 0 4px 8px #0003;
-    margin-bottom: 10px;
+    border-radius: 2vh;
+    border: 0.4vw solid #D62828;
+    box-shadow: 0 0.6vw 1.2vw #0003;
+    margin-bottom: 1vh;
 }
 
-/* Lista */
-ul {
-    padding-left: 25px;
+/* =============================
+   CAIXAS DE TEXTO (SINOPSE ETC)
+   ============================= */
+.box {
+    background: #ffffffcc;
+    padding: 2vh;
+    border-radius: 2vh;
+    box-shadow: 0 0.5vw 1vw #0002;
+    margin-bottom: 4vh;
 }
 
-/* Curiosidades — tabela invisível */
+/* =============================
+   TABELA INVISÍVEL – CURIOSIDADES
+   ============================= */
 .curios {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 10px;
+    margin-top: 2vh;
 }
 
 .curios td {
-    padding: 8px 0;
+    padding: 2vh 0 2vh 4vw;
     border: none;
-    padding-left: 30px;
     position: relative;
-    transition: 0.2s;
 }
 
-/* Estrelinha do Buzz */
+/* Estrelinha no lugar de bolinha */
 .curios td::before {
     content: "⭐";
     position: absolute;
-    left: 10px;
+    left: 1vw;
+    top: 1vh;
     color: #F8D74A;
-    font-size: 18px;
+    font-size: 2vh;
 }
 
-/* Hover divertido */
+/* Pequeno efeito quando passa o mouse */
 .curios td:hover {
-    transform: scale(1.02);
     background: #ffffff66;
-    border-radius: 8px;
+    border-radius: 2vh;
+    transition: 0.2s;
 }
-
-.titulo {
-    font-family: 'Luckiest Guy', cursive;
-    font-size: 36px;
-    color: #D62828;
-    text-shadow: 2px 2px #F8D74A;
-    margin-bottom: 10px;
-} 
 </style>
 </head>
 <body>
 
-<h1 class="titulo">Toy Story 2 </h1>
+
 
 <!-- INFOBOX -->
 <div class="infobox">
@@ -136,7 +130,7 @@ ul {
 
 <!-- ELENCO -->
 <div class="box">
-    <h2>Recepção</h2>
+    <h2>Elenco</h2>
     <ul>
         <li>Tom Hanks — Woody</li>
         <li>Tim Allen — Buzz Lightyear</li>
@@ -152,19 +146,19 @@ ul {
 
     <table class="curios">
         <tr>
-            <td>Toy Story foi o primeiro longa-metragem totalmente animado em CGI.</td>
+            <td>Apagão de dados quase acabou com o filme</td>
         </tr>
         <tr>
-            <td>Originalmente, Woody seria um boneco ventríloquo.</td>
+            <td>Barbie não estava no primeiro filme por proibição da MATTEL</td>
         </tr>
         <tr>
-            <td>"Ao infinito… e além!" virou um dos bordões mais famosos da cultura pop.</td>
+            <td>O quarto de Andy tem livros com títulos de curtas da Pixar.</td>
         </tr>
         <tr>
-            <td>O filme levou cerca de 4 anos para ser produzido.</td>
+            <td>: A Pixar e a Disney planejavam lançar Toy Story 2 diretamente em vídeo.</td>
         </tr>
         <tr>
-            <td>A Pixar reescreveu o roteiro várias vezes até chegar no tom certo.</td>
+            <td>Fãs teorizam que a mãe de Andy era Emily.</td>
         </tr>
     </table>
 </div>
