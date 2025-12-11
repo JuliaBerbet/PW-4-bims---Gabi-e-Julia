@@ -2,7 +2,7 @@ body {
     background-image: url(fotos/nuvens1.jpg );
     background-size: cover;
     background-repeat: repeat;
-    background-size: 100%;
+    background-size: 1700px;
     font-family: "Indie Flower", cursive;
     font-weight: 700;
     font-style: normal;
@@ -76,22 +76,6 @@ h1{
 
 h3{
     letter-spacing: 4px;
-    text-align: center;
+    margin-left: 4%;
 }
-
-.fac{
-    background-color: #FFD700;
-    border: #003A70 3px solid;
-    color: #E51B23;
-    font-size: large;
-    display: flex;
-    padding: 40px 10px;
-    border-radius: 20px;
-}
-
-.row {
-    display: flex;
-    align-items: center;
-    margin-left: 3%;
-    }
 
