@@ -19,12 +19,31 @@ body {
     padding: 1% 4%;
 }
 
+::placeholder{
+    color: gray;
+}
+
 .nome{
     margin-top: 5%;
 }
 
 .senha, .email{
     display: inline-block;
+    margin-top: 2%;
+    margin-right: 5%;
+}
+
+.tel, .age, .born{
+    display: inline-block;
+    margin-top: 2%;
+    margin-right: 5%;
+}
+
+.inputage{
+    width: 40%;
+}
+
+.city, .aviso, .divu, .escolha, .know, .why, .agree{
     margin-top: 2%;
     margin-right: 5%;
 }
@@ -73,5 +92,6 @@ h3{
 .row {
     display: flex;
     align-items: center;
-    justify-content: right;
+    margin-left: 3%;
     }
+
