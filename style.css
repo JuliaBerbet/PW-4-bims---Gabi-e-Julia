@@ -66,12 +66,12 @@ html {
     border-top: solid 2px black;
 }
 
-/* Estilizando os iframes */
+
 iframe {
     width: 100%;
     height: 100%;
     border: none;
-    /* Remove a borda padrão do iframe */
+
 }
 
 
@@ -93,11 +93,11 @@ iframe {
     text-decoration: none;
     color: #E51B23;
     background-color: #FFD700;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 0.8vw;
     font-family: 'Luckiest Guy', sans-serif;
     letter-spacing: 1px;
-    border: #003A70, 3px solid;
+    border: #0523a8, 4px solid;
     display: block;
     width: 8vw;
 
@@ -139,14 +139,3 @@ iframe {
     align-items: end;
 }
 
-.buzz {
-    width: 6vw;
-    height: auto;
-    margin-right: 2vw;
-    align-items: center;
-    animation: balancar 3s infinite alternate;
-}
-
-.buzz:hover {
-    transform: scale(1.1);
-}
