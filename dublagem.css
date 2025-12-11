@@ -15,8 +15,8 @@ body {
     margin-top: 2%;
     letter-spacing: 4px;
     text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 7%;
+    margin-right: 24%;
     padding: 1% 4%;
 }
 
@@ -48,13 +48,10 @@ table{
     margin-top: 2%;
     letter-spacing: 4px;
     text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 7%;
+    margin-right: 24%;
     padding: 1% 4%;
     padding-bottom: 8vh;
 }
 
-img{
-    width: 12%;
-}
 
