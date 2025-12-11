@@ -64,6 +64,9 @@ html {
     text-align: center;
     padding: 10px;
     border-top: solid 2px black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    color: #0523a8;
 }
 
 
@@ -112,21 +115,6 @@ iframe {
 
 
 
-
-.logo {
-    display: flex;
-    width: 5vw;
-    height: auto;
-    margin-left: 2vw;
-    align-items: center;
-
-
-
-
-
-
-
-}
 
 
 .mainlogo {
