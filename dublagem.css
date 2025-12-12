@@ -5,6 +5,14 @@ body {
     background-size: 1700px;
 }
 
+h1{
+    font-family: 'Luckiest Guy', sans-serif;
+    color: #E51B23;
+    align-items: center;
+    -webkit-text-stroke: 1px #FFD700 ;
+    font-size: 300%;
+}
+
 .principal {
     background-color: rgba(224, 227, 230, 0.705);
     border-radius: 5px;
@@ -14,7 +22,6 @@ body {
     color: black;
     margin-top: 2%;
     letter-spacing: 4px;
-    text-align: center;
     margin-left: 7%;
     margin-right: 24%;
     padding: 1% 4%;
